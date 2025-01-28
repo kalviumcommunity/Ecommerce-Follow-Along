@@ -1,11 +1,12 @@
 const Login = () => {
-    const handlesubmit = () => {
+    const handlesubmit = (e) => {
+        e.preventDefault()
       alert("Form submitted successfully ✓");
     };
   
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
-        <div className="p-8 bg-white rounded-lg shadow-lg flex flex-col gap-6 w-full max-w-md border border-gray-300">
+        <form onSubmit={handlesubmit} className="p-8 bg-white rounded-lg shadow-lg flex flex-col gap-6 w-full max-w-md border border-gray-300">
           <h1 className="text-2xl font-bold text-gray-800 text-center">
             Welcome Back
           </h1>
@@ -48,12 +49,12 @@ const Login = () => {
           </div>
   
           <button
-            onClick={handlesubmit}
+            type="submit"
             className="w-full py-3 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600 transition duration-300"
           >
             Submit
           </button>
-        </div>
+        </form>
       </div>
     );
   };
