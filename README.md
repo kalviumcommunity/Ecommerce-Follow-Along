@@ -129,3 +129,65 @@ Tracks orders, including user info, product details, and order status.
 *git push origin feature-name*
 
 *Open a pull request on the original repository.*
+
+## Milestone 1: Project Overview
+
+In the first milestone, we covered the following key aspects of the project:
+
+1. set up project in git hub
+2. also added a README.md file to update about the project changes as we move further
+
+## Milestone 2: Further
+
+In the second milestone, we covered the following key aspects of the project:
+
+1. created a structured folder hierarchy for project
+2. set up react for frontend and nodejs for backend 
+3. configured the tailwind css for styling 
+4. Build the login page
+
+## Milestone 3: Further
+
+In the third milestone, we covered the following key aspects of the project:
+
+1. used nodejs and express to set up backend
+2. established the connection with mongoDB to store the data of user efficiently    
+
+## Milestone 4: Further
+
+In the fourth milestone, we covered the following key aspects of the project:
+
+1. created a usermodel with name, password and emailin in model folder
+2. also used multer to upload multimedia like images
+
+## Milestone 5: Further
+
+In the fifth milestone, we covered the following key aspects of the project:
+
+1. Created frontend ui with signup page
+2. implemented form validation
+
+## Milestone 6: Further
+
+In the sixth milestone, we covered the following key aspects of the project:
+
+1. Encrypted passowrd using bcryptjs library
+2. also stored user data in databse with password being encrypted
+
+## Milestone 7: Further
+In the seventh milestone, we covered the following key aspects of the project:
+
+1. created login endpoint accepting user credential like name and password
+2. used bcrypt to hash password and finally comparing the credentials with databse and logging user
+
+## Milestone 8: Product Card & Homepage Layout
+
+* Created a reusable Card Component with props for product details.
+* Designed the Homepage layout using a grid or flexbox to display multiple product cards.
+
+## Milestone 9: Product Input Form
+
+*  **Product Details Form:** 
+Developed a comprehensive form to collect all necessary product information.
+*  **Multiple Image Upload:**
+Implemented functionality for uploading multiple images for each product.
